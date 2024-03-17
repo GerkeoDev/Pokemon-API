@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.fetchPokemon{
+  margin-top: 30px;
+  height: 30px;
+  border: 2px solid gray;
+  background-color: rgb(196, 196, 196);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fetchPokemon:active{
+  border: 2px solid rgb(97, 97, 97);
+  background-color: rgb(165, 165, 165);
+  height: 32px;
+  width: 112px;
+}
+.pokemonDiv {
+  display: flex;
+  justify-content: center;
+}
+.pokemonList {
+  width: 150px;
+}
